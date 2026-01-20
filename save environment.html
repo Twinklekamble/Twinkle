@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Save Environment</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5fff5;
+    }
+    .navbar {
+      background-color: #2e8b57;
+    }
+    .navbar-brand, .nav-link {
+      color: #fff !important;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+      height: 75vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px #000;
+      flex-direction: column;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+    }
+    .about-section, .actions-section {
+      padding: 60px 20px;
+    }
+    .about-section {
+      background-color: #e8f5e9;
+    }
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background-color: #2e8b57;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">EcoWorld</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#actions">Actions</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Save the Environment</h1>
+    <p>Together, we can make the Earth greener, cleaner, and more sustainable for future generations.</p>
+    <a href="#actions" class="btn btn-success mt-3">Get Involved</a>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section text-center">
+    <div class="container">
+      <h2>About Our Mission</h2>
+      <p class="lead mt-3">We work to promote awareness and take action for protecting our environment by planting trees, reducing waste, and conserving natural resources.</p>
+    </div>
+  </section>
+
+  <!-- Actions Section -->
+  <section id="actions" class="actions-section">
+    <div class="container">
+      <h2 class="text-center mb-5">How You Can Help</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Plant Trees">
+            <div class="card-body">
+              <h5 class="card-title">Plant Trees</h5>
+              <p class="card-text">Join local tree planting drives to increase green cover and absorb carbon dioxide.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1524020180072-4cbe7c6ef4c9?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Reduce Waste">
+            <div class="card-body">
+              <h5 class="card-title">Reduce Waste</h5>
+              <p class="card-text">Adopt reusable bags, bottles, and recycle materials to minimize waste pollution.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1573496529574-be85d6a60704?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Save Energy">
+            <div class="card-body">
+              <h5 class="card-title">Save Energy</h5>
+              <p class="card-text">Conserve power by using energy-efficient appliances and renewable sources.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="text-center p-5 bg-light">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p class="mt-3">Email: <strong>contact@ecoworld.org</strong></p>
+      <p>Join us in making a difference!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 EcoWorld | Designed to Inspire Green Living</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
